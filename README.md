@@ -3,6 +3,7 @@
 
 Python web scraper designed to collect product details from [Books to Scrape](http://books.toscrape.com) using **BeautifulSoup**, process and clean the extracted data using **pandas**, export it to a structured CSV file, and perform SQL analytical queries.
 
+![Books to Scrape Website](images/Books_website.png)
 ---
 
 ## 📁 Project Structure
@@ -22,6 +23,7 @@ books-scraper/
 * Data Cleaning & Pipeline: Normalizes ratings to numeric values, converts stock availability into boolean flags, handles absolute URL building, and cleans raw currency symbols.
 
 * Pandas Data Processing: Structures extracted items into a clean DataFrame and exports them seamlessly to CSV format.
+![Books Data Preview](images/Books_Data.png)
 
 * SQL Analytics: Runs SQL queries to perform business logic aggregations on the dataset.
 
